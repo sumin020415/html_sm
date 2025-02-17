@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css</title>
+    <style>
+        /* 스타일 영역 주석*/
+        /*!important : 제일 우선 순위*/
+
+        * {
+            background-color: floralwhite
+        }
+
+        p {
+            background-color: cornflowerblue;
+        }
+
+        p {
+            background-color: fuchsia
+        }
+
+        .p-1 {
+            color: darkblue;
+            background-color: azure
+        }
+
+        .p-2 {
+            background-color: darkblue;
+            color: white
+        }
+        /*우선순위 동일 시 마지막꺼 적용됨*/
+    </style>
+</head>
+
+<body>
+    <a href="index.html">home</a>
+    <h1>6. CSS border</h1>
+    <p class="p-1">p1클래스</p>
+    <p class="p-1 p-2">p1과 p2클래스</p>
+    <p class="p-1">p1클래스</p>
+    <p class="p-2">p2클래스</p>
+    <p></p>
+</body></html>
