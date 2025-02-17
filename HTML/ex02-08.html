@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hover</title>
+
+    <style>
+        table {
+            border: none
+        }
+
+        td {
+            background-color: white;
+            color: white;
+            text-align: center;
+            font-size:2rem;
+            width:33%;
+            transition: all 0.8s ease
+        }
+
+        .h1:hover {
+            background-color: red;
+            transform: scale(0.7)
+        }
+
+        .h2:hover {
+            background-color: crimson;
+            transform: scale(0.7)
+        }
+
+        .h3:hover {
+            background-color: brown;
+            transform: scale(0.7)
+        }
+
+        .h4:hover {
+            background-color: burlywood;
+            transform: scale(0.7)
+        }
+
+        .h5:hover {
+            background-color: antiquewhite;
+            transform: scale(0.7)
+        }
+
+        .h6:hover {
+            background-color: darksalmon;
+            transform: scale(0.7)
+        }
+
+        .h7:hover {
+            background-color: chocolate;
+            transform: scale(0.7)
+        }
+
+        .h8:hover {
+            background-color: coral;
+            transform: scale(0.7)
+        }
+
+        .h9:hover {
+            background-color: darkorange;
+            transform: scale(0.7)
+        }
+    </style>
+
+</head>
+
+<body>
+    <a href="index.html">home</a>
+    <h1>8. hover 가상선택자</h1>
+
+    <!--table>(tr>td.h$*3)-->
+    <table align="center" border="1" width="400" height="400">
+
+        <tr>
+            <td class="h1">ㅎㅇ</td>
+            <td class="h2">ㅂㅇ</td>
+            <td class="h3">ㅎㅎ</td>
+        </tr>
+
+        <tr>
+            <td class="h4">ㅂㅂ</td>
+            <td class="h5">ㅋㅋ</td>
+            <td class="h6">바보</td>
+        </tr>
+
+        <tr>
+            <td class="h7">!</td>
+            <td class="h8">?</td>
+            <td class="h9">@</td>
+        </tr>
+
+    </table>
+
+</body></html>
