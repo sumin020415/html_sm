@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form 양식</title>
+</head>
+
+<body>
+   <a href="index.html">home</a>
+    <h1>6. Form 양식</h1>
+
+    <fieldset>
+        <legend>이름양식</legend>
+        <form action="#">
+            <label for="fname"> First Name :</label>
+            <input id="fname" type="text" name="fname" placeholder="이름" required><br>
+
+            <label for="lname"> Last Name :</label>
+            <input id="lname" type="text" name="lname" placeholder="성"><br>
+
+            <label for="ag"> Age : </label>
+            <input id="ag" type="number" name="ag" min="1" max="20" step="2" value="14"><br>
+
+            <label for="ch1"> 재밌음 : </label>
+            <input id="ch1" type="checkbox" name="ch1">
+
+            <label for="ch2"> 배고픔 : </label>
+            <input id="ch2" type="checkbox" name="ch2"> <br>
+
+            <label for="ska"> 남성 : </label>
+            <input id="ska" type="radio" name="gender" value="man" checked>
+
+            <label for="du"> 여성 : </label>
+            <input id="du" type="radio" name="gender" value="woman"> <br>
+
+            멋짐 : <input type="radio" name="gender1" value="man" checked>
+            예쁨 : <input type="radio" name="gender1" value="woman"> <br>
+
+            password : <input type="password"><br>
+            date : <input type="date"><br>
+            time : <input type="time"><br>
+            birth : <input type="datetime-local"><br>
+            file : <input type="file"><br>
+            (숨김) : <input type="hidden" name="신난다" value="오늘은 지르는 날!">
+           
+            <hr>
+            <input type="submit" value="보내기">
+            <input type="reset" value="내용지우기">
+            <hr>
+            <button type="submit">제출버튼</button>
+            <button type="reset">삭제버튼</button>
+        </form>
+    </fieldset>
+</body></html>
