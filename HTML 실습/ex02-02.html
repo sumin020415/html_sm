@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p><a href="index2.html">홈으로</a></p>
+    <fieldset>
+      <legend>패턴테스트</legend>
+      <!-- form>(input+br)*3+div>em -->
+      <form action="ex02-01a0.html">
+        ID : <input type="text" pattern="[a-zA-Z]{3,10}" required /><br />
+        PW : <input type="text" required /><br />
+        Etc : <input type="text" value="당신은 멋집니다." readonly /><br />
+        <input type="submit" />
+        <div><em>패턴에 맞출것</em></div>
+      </form>
+    </fieldset>
+  </body>
+</html>
